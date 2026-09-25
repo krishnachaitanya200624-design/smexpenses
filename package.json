@@ -1,0 +1,13 @@
+{
+  "name": "smartwealth",
+  "version": "1.0.0",
+  "description": "SmartWealth - Smart Expense Tracker & Personal Wealth Management System",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": ["finance", "expense-tracker", "wealth-management", "budgeting", "splitter"],
+  "author": "SmartWealth Team"
+}
